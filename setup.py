@@ -5,10 +5,12 @@ from setuptools import setup
 # from distutils.core import setup  
 
 setup(
-        name='Test',     
+        name='advantech',     
         version='1.0',   
-        description='This is a test of the setup',
-        author='Elma',  
-        packages=['testTest'],
-        install_requires=['protobuf>=3.6.1']         
+        description='This is for protobuf used.',
+        author='ElmaLee',  
+        packages=['advantech'],
+        install_requires=['protobuf>=3.6.1','pandas>=0.23.4'],
+        python_requires='>=3.5',
+        zip_safe=False       
 )
